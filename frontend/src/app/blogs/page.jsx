@@ -7,6 +7,10 @@ import { cookies } from "next/headers";
 
 // export const dynamic = "force-dynamic";
 
+export const metadata = {
+  title: "لیست بلاگ ها",
+};
+
 async function Page({ searchParams }) {
   //   const queries = queryString.stringify(searchParams);
   // set headers:
